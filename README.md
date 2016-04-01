@@ -22,7 +22,7 @@ http://darkplacemfg.com/
 GMO uses the Arduino Coding environment: 
 https://www.arduino.cc/
 
-Mozzi is hosted on the Teensy 3.2 microcontroller by Paul Stoffregren: 
+Mozzi is hosted on the Teensy 3.2 microcontroller by Paul Stoffregen: 
 https://www.pjrc.com/teensy/teensy31.html
 
 The name "Moffenzeef Modular" was derived from my modular synth duo in Savannah, GA that went under the moniker "Moffenzeef." The other half of Moffenzeef is Matthew Goodwin Akers, without whom I probably wouldn't have ever gotten this far into music technology. He is more than my old professor, mentor, and bandmate; he's a homie for life. http://moffenzeef.bandcamp.com
