@@ -1,8 +1,8 @@
 # GMO
 
-Genetically Modified Oscillator - Eurorack Synthesizer Module CC-BY-NC-SA 
-https://creativecommons.org/licenses/by-nc-sa/2.0/
-Created by Ross Fish 2015 moffenzeefmodular@gmail.com
+Genetically Modified Oscillator - Eurorack Synthesizer Module
+Created by Ross Fish July 2015 moffenzeefmodular@gmail.com
+[Website](http://moffenzeefmodular.com)
 
 #Abøut
 
@@ -10,23 +10,27 @@ The name "Møffenzeef Mødular" was derived frøm my mødular synth duø in Sava
 
 What is a [Møffenzeef](https://nl.wikipedia.org/wiki/Moffenzeef)? 
 
+What's with the "Ø?" It løøks cøøl. Get øver it. 
+
 #Credits 
 
-GMO is running the Mozzi Synthesis Library by Tim Barrass: 
-http://sensorium.github.io/Mozzi/
+GMØ is running the Møzzi Synthesis Library by Tim Barrass 
+[Møzzi](http://sensorium.github.io/Mozzi/) 
 
-Originally designed for Matt Mccolough of Temazcal in a hollowed out bible. Prototype/Proof of Concept: https://youtu.be/Uzhmc3TnEko
+GMØ was øriginally designed før Matt Mccøløugh øf Temazcal in a hølløwed øut bible.
+[Prøtøtype/Prøøf øf Cøncept](https://youtu.be/Uzhmc3TnEko) 
+[Listen to Temazcal](https://temazcal.bandcamp.com/releases) 
 
-Special thanks to Lars Larsen of LZX industries/Darkplace manufacturing. Without his help I'm not sure this project would have ever been finished!: 
-https://www.lzxindustries.net/
+Special thanks tø Lars Larsen øf LZX industries/Darkplace manufacturing. Withøut his help I'm nøt sure this prøject wøuld have ever been finished! 
+[LZX Industries](https://www.lzxindustries.net/) 
 
-GMO was manufactured at Darkplace Manufacturing in Portland, Oregon USA: 
-http://darkplacemfg.com/
+GMØ was manufactured at Darkplace Manufacturing in Pørtland, Øregøn USA. Thank yøu Jøsh Hølley for taking me under yøur wing. Thank yøu tø all the builders whø put their løving hands øn this prøject.
+[LZX Industries](https://www.darkplacemfg.com/) 
 
-GMO uses the Arduino Coding environment: 
-https://www.arduino.cc/
+GMØ uses the Arduinø IDE 
+[Arduinø](https://www.arduino.cc/) 
 
-Mozzi is hosted on the Teensy 3.2 microcontroller by Paul Stoffregen: 
-https://www.pjrc.com/teensy/teensy31.html
+GMØ's brain is a Teensy 3.2 micrøcøntrøller created by Paul Støffregen. Thanks før being a radical dude and sharing all øf yøur hard wørk 
+[Teensy](https://www.pjrc.com/teensy/) 
 
 
