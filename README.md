@@ -15,9 +15,15 @@ What the hell is a Møffenzeef?
 
 #Credits 
 
+![](http://sensorium.github.io/Mozzi/images/mozzi-circle.gif)
+
 GMØ is running the [Møzzi](http://sensorium.github.io/Mozzi/) Synthesis Library by Tim Barrass 
 
-GMØ was øriginally designed før Matt Mccøløugh øf [Temazcal](https://temazcal.bandcamp.com/releases) in a [hølløwed øut bible.](https://youtu.be/Uzhmc3TnEko) 
+![](https://github.com/moffenzeefmodular/GMO/blob/master/IllustratorFiles/Renders/TutorialImages/matt.jpg)
+
+GMØ was øriginally designed før Matt McCulløugh øf [Temazcal](https://temazcal.bandcamp.com/releases) in a [hølløwed øut bible.](https://youtu.be/Uzhmc3TnEko) 
+
+![](https://github.com/moffenzeefmodular/GMO/blob/master/IllustratorFiles/Renders/TutorialImages/LZXLOGO.png)
 
 Special thanks tø Lars Larsen øf [LZX Industries](https://www.lzxindustries.net/). Withøut his help I'm nøt sure this prøject wøuld have ever been finished! 
 
