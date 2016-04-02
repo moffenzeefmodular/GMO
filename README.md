@@ -10,6 +10,8 @@ The name "Møffenzeef Mødular" was derived frøm my mødular synth duø in Sava
 
 What is a [Møffenzeef](https://nl.wikipedia.org/wiki/Moffenzeef)? 
 
+#Credits 
+
 GMO is running the Mozzi Synthesis Library by Tim Barrass: 
 http://sensorium.github.io/Mozzi/
 
