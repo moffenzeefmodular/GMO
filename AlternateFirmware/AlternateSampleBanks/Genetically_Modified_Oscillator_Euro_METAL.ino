@@ -23,23 +23,24 @@ _____/\\\\\\\\\\\\__/\\\\____________/\\\\_______/\\\\\______
 /////////////////////////////////////////////////////////////////
 
   Verified on Arduino version 1.6.3 
-  
-  Verified on Teensyduino version 1.22 
-  
+  https://www.arduino.cc/en/Main/OldSoftwareReleases
+    
   How to download libraries for Arduino: 
   http://www.arduino.cc/en/Guide/Libraries
   
-  Must download to run this sketch:
+  ADC
   http://github.com/pedvide/ADC 
+  Mozzi
   http://sensorium.github.io/Mozzi/download/
-  http://www.pjrc.com/teensy/teensyduino.html  
-  
-  To download version 1.22, right click the download link on the Teensy site 
-  and click "copy link location" repaste it into your web browser and change the 
-  three numbers after td_ to 122 within the URL.  
-  
-  Must also move wavetables included with this sketch (FILENAME.h) into 
+  Teensyduino 1.22
+      Mac: http://www.pjrc.com/teensy/td_122/teensyduino.dmg
+      Linux (32 bit): http://www.pjrc.com/teensy/td_122/teensyduino.32bit
+      Linux (64 bit): http://www.pjrc.com/teensy/td_122/teensyduino.64bit
+      Windows XP 7/8/10:http://www.pjrc.com/teensy/td_122/teensyduino.exe       
+      
+  Move these files into 
   Arduino/Libraries/Mozzi/Samples 
+  https://github.com/moffenzeefmodular/GMO/tree/master/AlternateFirmware/Wavetables
   
   ^ ^ ^
   The ".h" files must be taken out of any folders or .zip archives 
@@ -74,7 +75,6 @@ _____/\\\\\\\\\\\\__/\\\\____________/\\\\_______/\\\\\______
   LED Audio Indicator ==> Pin 23 (A9)
   
 */
-
 
 #include <ADC.h>  // Needed for DAC output 
 #include <MozziGuts.h> // Necessary for running the sketch 
