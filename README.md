@@ -10,7 +10,7 @@ The name "Møffenzeef Mødular" was derived frøm my mødular synth duø in Sava
 
 What is a [Møffenzeef](https://nl.wikipedia.org/wiki/Moffenzeef)? 
 
-What's with the "Ø?" It løøks cøøl. Get øver it. 
+What's with the "Ø?" It løøks cøøl, get øver it. 
 
 #Credits 
 
