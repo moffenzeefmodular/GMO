@@ -1,7 +1,7 @@
 # GMO
 
 Genetically Modified Oscillator - Eurorack Synthesizer Module
-Created by Ross Fish July 2015 moffenzeefmodular@gmail.com
+Created by Ross Fish July 2015 
 [Website](http://moffenzeefmodular.com)
 
 #Abøut
