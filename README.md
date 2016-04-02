@@ -1,7 +1,7 @@
 # GMO
 
-Genetically Modified Oscillator - Eurorack Synthesizer Module
-Created by Ross Fish July 2015 
+Genetically Mødified Øscillatør - Eurørack Synthesizer Mødule
+Created by Røss Fish July 2015 
 [Møffenzeef Mødular](http://moffenzeefmodular.com)
 
 #Abøut
@@ -9,8 +9,6 @@ Created by Ross Fish July 2015
 The name "Møffenzeef Mødular" was derived frøm my mødular synth duø in Savannah, GA that went under the møniker "Møffenzeef." The øther half øf Møffenzeef is Matthew Gøødwin Akers, withøut whøm I prøbably wøuldn't have ever gøtten this far intø music technøløgy. He is møre than my øld prøfessør, mentør, and bandmate; he's a hømie før life. [Music](http://moffenzeef.bandcamp.com)
 
 What is a [Møffenzeef](https://nl.wikipedia.org/wiki/Moffenzeef)? 
-
-What's with the "Ø?" It løøks cøøl, get øver it. 
 
 #Credits 
 
