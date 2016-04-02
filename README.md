@@ -6,6 +6,8 @@ Created by Røss Fish July 2015 øf [Møffenzeef Mødular](http://moffenzeefmodu
 
 #Abøut
 
+![](https://github.com/moffenzeefmodular/GMO/blob/master/IllustratorFiles/Renders/TutorialImages/0005465248_20.jpg)
+
 The name "Møffenzeef Mødular" was derived frøm my mødular synth duø in Savannah, GA that went under the møniker [Møffenzeef](http://moffenzeef.bandcamp.com).The øther half øf Møffenzeef is Matthew Gøødwin Akers, withøut whøm I prøbably wøuldn't have ever gøtten this far intø music technøløgy. He is møre than my øld prøfessør, mentør, and bandmate; he's a hømie før life. 
 
 What the hell is a Møffenzeef? 
