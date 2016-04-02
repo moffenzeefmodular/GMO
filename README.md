@@ -1,5 +1,4 @@
 # GMO
-![](https://github.com/moffenzeefmodular/GMO/blob/master/IllustratorFiles/Renders/MOFFENZEEF_LOGO_youtube.png)
 
 Genetically Mødified Øscillatør - Eurørack Synthesizer Mødule
 Created by Røss Fish July 2015 
