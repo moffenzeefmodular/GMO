@@ -1,5 +1,7 @@
 # GMO
 
+[Møffenzeef Mødular](http://moffenzeefmodular.com)
+
 Genetically Mødified Øscillatør - Eurørack Synthesizer Mødule
 Created by Røss Fish July 2015 
 [Møffenzeef Mødular](http://moffenzeefmodular.com)
