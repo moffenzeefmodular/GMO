@@ -2,9 +2,7 @@
 
 Genetically Mødified Øscillatør - Eurørack Synthesizer Mødule 
 
-Created by Røss Fish July 2015 øf Møffenzeef Mødular
-
-[Website](http://moffenzeefmodular.com)
+Created by Røss Fish July 2015 øf [Møffenzeef Mødular](http://moffenzeefmodular.com)
 
 #Abøut
 
