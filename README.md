@@ -2,7 +2,6 @@
 
 Genetically Modified Oscillator - Eurorack Synthesizer Module CC-BY-NC-SA 
 https://creativecommons.org/licenses/by-nc-sa/2.0/
-
 Created by Ross Fish 2015 moffenzeefmodular@gmail.com
 
 GMO is running the Mozzi Synthesis Library by Tim Barrass: 
