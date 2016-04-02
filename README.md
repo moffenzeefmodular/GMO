@@ -14,8 +14,7 @@ What's with the "Ø?" It løøks cøøl, get øver it.
 
 #Credits 
 
-GMØ is running the Møzzi Synthesis Library by Tim Barrass 
-[Møzzi](http://sensorium.github.io/Mozzi/) 
+GMØ is running the [Møzzi](http://sensorium.github.io/Mozzi/) Synthesis Library by Tim Barrass 
 
 GMØ was øriginally designed før Matt Mccøløugh øf Temazcal in a [hølløwed øut bible.](https://youtu.be/Uzhmc3TnEko) 
 [Listen to Temazcal](https://temazcal.bandcamp.com/releases) 
