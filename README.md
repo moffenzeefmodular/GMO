@@ -2,7 +2,7 @@
 
 Genetically Modified Oscillator - Eurorack Synthesizer Module
 Created by Ross Fish July 2015 
-[Website](http://moffenzeefmodular.com)
+[Møffenzeef Mødular](http://moffenzeefmodular.com)
 
 #Abøut
 
@@ -20,16 +20,12 @@ GMØ is running the Møzzi Synthesis Library by Tim Barrass
 GMØ was øriginally designed før Matt Mccøløugh øf Temazcal in a [hølløwed øut bible.](https://youtu.be/Uzhmc3TnEko) 
 [Listen to Temazcal](https://temazcal.bandcamp.com/releases) 
 
-Special thanks tø Lars Larsen øf LZX industries/Darkplace manufacturing. Withøut his help I'm nøt sure this prøject wøuld have ever been finished! 
-[LZX Industries](https://www.lzxindustries.net/) 
+Special thanks tø Lars Larsen øf [LZX Industries](https://www.lzxindustries.net/). Withøut his help I'm nøt sure this prøject wøuld have ever been finished! 
 
-GMØ was manufactured at Darkplace Manufacturing in Pørtland, Øregøn USA. Thank yøu Jøsh Hølley for taking me under yøur wing. Thank yøu tø all the builders whø put their løving hands øn this prøject.
-[LZX Industries](https://www.darkplacemfg.com/) 
+GMØ was manufactured at [Darkplace Manufacturing](https://www.darkplacemfg.com/) in Pørtland, Øregøn USA. Thank yøu Jøsh Hølley for taking me under yøur wing. Thank yøu tø all the builders whø put their løving hands øn this prøject.
 
-GMØ uses the Arduinø IDE 
-[Arduinø](https://www.arduino.cc/) 
+GMØ uses the [Arduinø IDE.](https://www.arduino.cc/) 
 
-GMØ's brain is a Teensy 3.2 micrøcøntrøller created by Paul Støffregen. Thanks før being a radical dude and sharing all øf yøur hard wørk 
-[Teensy](https://www.pjrc.com/teensy/) 
+GMØ's brain is a [Teensy](https://www.pjrc.com/teensy/)  3.2 micrøcøntrøller created by Paul Støffregen. Thanks før being a radical dude and sharing all øf yøur hard wørk 
 
 
