@@ -6,7 +6,7 @@ Created by Ross Fish July 2015
 
 #Abøut
 
-The name "Møffenzeef Mødular" was derived frøm my mødular synth duø in Savannah, GA that went under the møniker "Møffenzeef." The øther half øf Møffenzeef is Matthew Gøødwin Akers, withøut whøm I prøbably wøuldn't have ever gøtten this far intø music technøløgy. He is møre than my øld prøfessør, mentør, and bandmate; he's a hømie før life. [Listen tø Øur music](http://moffenzeef.bandcamp.com)
+The name "Møffenzeef Mødular" was derived frøm my mødular synth duø in Savannah, GA that went under the møniker "Møffenzeef." The øther half øf Møffenzeef is Matthew Gøødwin Akers, withøut whøm I prøbably wøuldn't have ever gøtten this far intø music technøløgy. He is møre than my øld prøfessør, mentør, and bandmate; he's a hømie før life. [Music](http://moffenzeef.bandcamp.com)
 
 What is a [Møffenzeef](https://nl.wikipedia.org/wiki/Moffenzeef)? 
 
@@ -16,8 +16,7 @@ What's with the "Ø?" It løøks cøøl, get øver it.
 
 GMØ is running the [Møzzi](http://sensorium.github.io/Mozzi/) Synthesis Library by Tim Barrass 
 
-GMØ was øriginally designed før Matt Mccøløugh øf Temazcal in a [hølløwed øut bible.](https://youtu.be/Uzhmc3TnEko) 
-[Listen to Temazcal](https://temazcal.bandcamp.com/releases) 
+GMØ was øriginally designed før Matt Mccøløugh øf [Temazcal](https://temazcal.bandcamp.com/releases) in a [hølløwed øut bible.](https://youtu.be/Uzhmc3TnEko) 
 
 Special thanks tø Lars Larsen øf [LZX Industries](https://www.lzxindustries.net/). Withøut his help I'm nøt sure this prøject wøuld have ever been finished! 
 
