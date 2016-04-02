@@ -1,5 +1,7 @@
 # GMO
 
+https://github.com/moffenzeefmodular/GMO/blob/master/IllustratorFiles/Renders/MOFFENZEEF_LOGO_youtube.png
+
 [Møffenzeef Mødular](http://moffenzeefmodular.com)
 
 Genetically Mødified Øscillatør - Eurørack Synthesizer Mødule
