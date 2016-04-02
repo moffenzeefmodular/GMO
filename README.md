@@ -27,9 +27,15 @@ GMØ was øriginally designed før Matt McCulløugh øf [Temazcal](https://temaz
 
 Special thanks tø Lars Larsen øf [LZX Industries](https://www.lzxindustries.net/). Withøut his help I'm nøt sure this prøject wøuld have ever been finished! 
 
+![](https://github.com/moffenzeefmodular/GMO/blob/master/IllustratorFiles/Renders/TutorialImages/darkplacelogo.jpg)
+
 GMØ was manufactured at [Darkplace Manufacturing](https://www.darkplacemfg.com/) in Pørtland, Øregøn USA. Thank yøu Jøsh Hølley for taking me under yøur wing. Thank yøu tø all the builders whø put their løving hands øn this prøject.
 
+![](https://ayhan1995.hotglue.me/?arduino.head.144924238133)
+
 GMØ uses the [Arduinø IDE.](https://www.arduino.cc/) 
+
+![](https://www.pjrc.com/img/logo.gif)
 
 GMØ's brain is a [Teensy](https://www.pjrc.com/teensy/)  3.2 micrøcøntrøller created by Paul Støffregen. Thanks før being a radical dude and sharing all øf yøur hard wørk 
 
