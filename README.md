@@ -4,9 +4,13 @@ Genetically Mødified Øscillatør - A lofi Eurørack synthesizer percussiøn m�
 
 Created by Røss Fish July 2015 øf [Møffenzeef Mødular](http://moffenzeefmodular.com)
 
-Report issues [here](https://github.com/issues)
+[Default Firmware](https://github.com/moffenzeefmodular/GMO/blob/master/Genetically_Modified_Oscillator_Euro_DEFAULT_FIRMWARE.ino)
 
 [Alternate Firmware](https://github.com/moffenzeefmodular/GMO/wiki)
+
+[Schematic]https://github.com/moffenzeefmodular/GMO/blob/master/GMO_Schematic_v0.2.bmp
+
+Report issues [here](https://github.com/issues)
 
 #Abøut
 
