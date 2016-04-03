@@ -79,14 +79,14 @@ _____/\\\\\\\\\\\\__/\\\\____________/\\\\_______/\\\\\______
 #include <ADC.h>  // Needed for DAC output 
 #include <MozziGuts.h> // Necessary for running the sketch 
 #include <Sample.h> // Library to play sound samples 
-#include <samples/wavetables/bellone_int8.h> // Table for Sample
-#include <samples/wavetables/belltwo_int8.h> // Table for Sample 
-#include <samples/wavetables/bellthree_int8.h> // Table for Sample 
-#include <samples/wavetables/bellfour_int8.h> // Table for Sample 
-#include <samples/wavetables/bellfive_int8.h> // Table for Sample 
-#include <samples/wavetables/bellsix_int8.h> // Table for Sample
-#include <samples/wavetables/bellseven_int8.h> // Table for Sample 
-#include <samples/wavetables/belleight_int8.h> // Table for Sample
+#include <samples/Wavetables/bellone_int8.h> // Table for Sample
+#include <samples/Wavetables/belltwo_int8.h> // Table for Sample 
+#include <samples/Wavetables/bellthree_int8.h> // Table for Sample 
+#include <samples/Wavetables/bellfour_int8.h> // Table for Sample 
+#include <samples/Wavetables/bellfive_int8.h> // Table for Sample 
+#include <samples/Wavetables/bellsix_int8.h> // Table for Sample
+#include <samples/Wavetables/bellseven_int8.h> // Table for Sample 
+#include <samples/Wavetables/belleight_int8.h> // Table for Sample
 
 #define CONTROL_RATE 256 // powers of 2 please 
 
