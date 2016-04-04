@@ -79,17 +79,17 @@ _____/\\\\\\\\\\\\__/\\\\____________/\\\\_______/\\\\\______
 #include <ADC.h>  // Needed for DAC output 
 #include <MozziGuts.h> // Necessary for running the sketch 
 #include <Sample.h> // Library to play sound samples  
-#include <samples/mouthnine_int8.h> // Table for Sample 
-#include <samples/moutheleven_int8.h> // Table for Sample 
-#include <samples/mouthtwelve_int8.h> // Table for Sample 
-#include <samples/mouththirteen_int8.h> // Table for Sample 
-#include <samples/mouthfourteen_int8.h> // Table for Sample 
-#include <samples/mouthfifteen_int8.h> // Table for Sample 
-#include <samples/mouthsixteen_int8.h> // Table for Sample 
-#include <samples/mouthseventeen_int8.h> // Table for Sample 
-#include <samples/moutheighteen_int8.h> // Table for Sample 
-#include <samples/mouthnineteen_int8.h> // Table for Sample 
-#include <samples/mouthtwenty_int8.h> // Table for Sample 
+#include <samples/Wavetables/mouthnine_int8.h> // Table for Sample 
+#include <samples/Wavetables/moutheleven_int8.h> // Table for Sample 
+#include <samples/Wavetables/mouthtwelve_int8.h> // Table for Sample 
+#include <samples/Wavetables/mouththirteen_int8.h> // Table for Sample 
+#include <samples/Wavetables/mouthfourteen_int8.h> // Table for Sample 
+#include <samples/Wavetables/mouthfifteen_int8.h> // Table for Sample 
+#include <samples/Wavetables/mouthsixteen_int8.h> // Table for Sample 
+#include <samples/Wavetables/mouthseventeen_int8.h> // Table for Sample 
+#include <samples/Wavetables/moutheighteen_int8.h> // Table for Sample 
+#include <samples/Wavetables/mouthnineteen_int8.h> // Table for Sample 
+#include <samples/Wavetables/mouthtwenty_int8.h> // Table for Sample 
 
 #define CONTROL_RATE 256 // powers of 2 please 
 
