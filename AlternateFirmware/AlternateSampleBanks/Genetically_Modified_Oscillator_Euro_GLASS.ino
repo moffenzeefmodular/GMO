@@ -79,14 +79,14 @@ _____/\\\\\\\\\\\\__/\\\\____________/\\\\_______/\\\\\______
 #include <ADC.h>  // Needed for DAC output 
 #include <MozziGuts.h> // Necessary for running the sketch 
 #include <Sample.h> // Library to play sound samples 
-#include <samples/glassone_int8.h> // Table for Sample
-#include <samples/glasstwo_int8.h> // Table for Sample 
-#include <samples/glassthree_int8.h> // Table for Sample 
-#include <samples/glassfour_int8.h> // Table for Sample 
-#include <samples/glassfive_int8.h> // Table for Sample 
-#include <samples/glasssix_int8.h> // Table for Sample 
-#include <samples/glassseven_int8.h> // Table for Sample 
-#include <samples/glasseight_int8.h> // Table for Sample 
+#include <samples/Wavetables/glassone_int8.h> // Table for Sample
+#include <samples/Wavetables/glasstwo_int8.h> // Table for Sample 
+#include <samples/Wavetables/glassthree_int8.h> // Table for Sample 
+#include <samples/Wavetables/glassfour_int8.h> // Table for Sample 
+#include <samples/Wavetables/glassfive_int8.h> // Table for Sample 
+#include <samples/Wavetables/glasssix_int8.h> // Table for Sample 
+#include <samples/Wavetables/glassseven_int8.h> // Table for Sample 
+#include <samples/Wavetables/glasseight_int8.h> // Table for Sample 
 
 #define CONTROL_RATE 256 // powers of 2 please 
 
