@@ -79,14 +79,14 @@ _____/\\\\\\\\\\\\__/\\\\____________/\\\\_______/\\\\\______
 #include <ADC.h>  // Needed for DAC output 
 #include <MozziGuts.h> // Necessary for running the sketch 
 #include <Sample.h> // Library to play sound samples 
-#include <samples/tomone_int8.h> // Table for Sample
-#include <samples/tomtwo_int8.h> // Table for Sample 
-#include <samples/tomthree_int8.h> // Table for Sample 
-#include <samples/tomfour_int8.h> // Table for Sample 
-#include <samples/tomfive_int8.h> // Table for Sample 
-#include <samples/tomsix_int8.h> // Table for Sample 
-#include <samples/tomseven_int8.h> // Table for Sample 
-#include <samples/tomeight_int8.h> // Table for Sample 
+#include <samples/Wavetables/tomone_int8.h> // Table for Sample
+#include <samples/Wavetables/tomtwo_int8.h> // Table for Sample 
+#include <samples/Wavetables/tomthree_int8.h> // Table for Sample 
+#include <samples/Wavetables/tomfour_int8.h> // Table for Sample 
+#include <samples/Wavetables/tomfive_int8.h> // Table for Sample 
+#include <samples/Wavetables/tomsix_int8.h> // Table for Sample 
+#include <samples/Wavetables/tomseven_int8.h> // Table for Sample 
+#include <samples/Wavetables/tomeight_int8.h> // Table for Sample 
 
 #define CONTROL_RATE 256 // powers of 2 please 
 
