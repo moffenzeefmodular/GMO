@@ -79,16 +79,16 @@ _____/\\\\\\\\\\\\__/\\\\____________/\\\\_______/\\\\\______
 #include <ADC.h>  // Needed for DAC output 
 #include <MozziGuts.h> // Necessary for running the sketch 
 #include <Sample.h> // Library to play sound samples 
-#include <samples/snareone_int8.h> // Table for Sample
-#include <samples/snaretwo_int8.h> // Table for Sample 
-#include <samples/snarethree_int8.h> // Table for Sample 
-#include <samples/snarefour_int8.h> // Table for Sample 
-#include <samples/snarefive_int8.h> // Table for Sample 
-#include <samples/snaresix_int8.h> // Table for Sample 
-#include <samples/snareseven_int8.h> // Table for Sample 
-#include <samples/snareeight_int8.h> // Table for Sample 
-#include <samples/snarenine_int8.h> // Table for Sample 
-#include <samples/snareten_int8.h> // Table for Sample 
+#include <samples/Wavetables/snareone_int8.h> // Table for Sample
+#include <samples/Wavetables/snaretwo_int8.h> // Table for Sample 
+#include <samples/Wavetables/snarethree_int8.h> // Table for Sample 
+#include <samples/Wavetables/snarefour_int8.h> // Table for Sample 
+#include <samples/Wavetables/snarefive_int8.h> // Table for Sample 
+#include <samples/Wavetables/snaresix_int8.h> // Table for Sample 
+#include <samples/Wavetables/snareseven_int8.h> // Table for Sample 
+#include <samples/Wavetables/snareeight_int8.h> // Table for Sample 
+#include <samples/Wavetables/snarenine_int8.h> // Table for Sample 
+#include <samples/Wavetables/snareten_int8.h> // Table for Sample 
 
 #define CONTROL_RATE 256 // powers of 2 please 
 
