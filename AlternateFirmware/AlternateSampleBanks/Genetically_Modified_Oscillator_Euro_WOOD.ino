@@ -79,14 +79,14 @@ _____/\\\\\\\\\\\\__/\\\\____________/\\\\_______/\\\\\______
 #include <ADC.h>  // Needed for DAC output 
 #include <MozziGuts.h> // Necessary for running the sketch 
 #include <Sample.h> // Library to play sound samples 
-#include <samples/woodone_int8.h> // Table for Sample
-#include <samples/woodtwo_int8.h> // Table for Sample 
-#include <samples/woodthree_int8.h> // Table for Sample 
-#include <samples/woodfour_int8.h> // Table for Sample 
-#include <samples/woodfive_int8.h> // Table for Sample 
-#include <samples/woodsix_int8.h> // Table for Sample 
-#include <samples/blockfive_int8.h> // Table for Sample 
-#include <samples/woodeight_int8.h> // Table for Sample 
+#include <samples/Wavetables/woodone_int8.h> // Table for Sample
+#include <samples/Wavetables/woodtwo_int8.h> // Table for Sample 
+#include <samples/Wavetables/woodthree_int8.h> // Table for Sample 
+#include <samples/Wavetables/woodfour_int8.h> // Table for Sample 
+#include <samples/Wavetables/woodfive_int8.h> // Table for Sample 
+#include <samples/Wavetables/woodsix_int8.h> // Table for Sample 
+#include <samples/Wavetables/blockfive_int8.h> // Table for Sample 
+#include <samples/Wavetables/woodeight_int8.h> // Table for Sample 
 
 
 
