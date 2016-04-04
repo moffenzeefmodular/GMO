@@ -79,14 +79,14 @@ _____/\\\\\\\\\\\\__/\\\\____________/\\\\_______/\\\\\______
 #include <ADC.h>  // Needed for DAC output 
 #include <MozziGuts.h> // Necessary for running the sketch 
 #include <Sample.h> // Library to play sound samples 
-#include <samples/marioone_int8.h> // Table for Sample
-#include <samples/mariotwo_int8.h> // Table for Sample 
-#include <samples/mariothree_int8.h> // Table for Sample 
-#include <samples/mariofour_int8.h> // Table for Sample 
-#include <samples/mariofive_int8.h> // Table for Sample 
-#include <samples/mariosix_int8.h> // Table for Sample
-#include <samples/marioseven_int8.h> // Table for Sample 
-#include <samples/marioeight_int8.h> // Table for Sample
+#include <samples/Wavetables/marioone_int8.h> // Table for Sample
+#include <samples/Wavetables/mariotwo_int8.h> // Table for Sample 
+#include <samples/Wavetables/mariothree_int8.h> // Table for Sample 
+#include <samples/Wavetables/mariofour_int8.h> // Table for Sample 
+#include <samples/Wavetables/mariofive_int8.h> // Table for Sample 
+#include <samples/Wavetables/mariosix_int8.h> // Table for Sample
+#include <samples/Wavetables/marioseven_int8.h> // Table for Sample 
+#include <samples/Wavetables/marioeight_int8.h> // Table for Sample
 
 #define CONTROL_RATE 256 // powers of 2 please 
 
