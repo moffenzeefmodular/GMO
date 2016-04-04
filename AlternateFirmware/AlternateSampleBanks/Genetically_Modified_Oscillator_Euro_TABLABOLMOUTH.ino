@@ -79,13 +79,13 @@ _____/\\\\\\\\\\\\__/\\\\____________/\\\\_______/\\\\\______
 #include <ADC.h>  // Needed for DAC output 
 #include <MozziGuts.h> // Necessary for running the sketch 
 #include <Sample.h> // Library to play sound samples 
-#include <samples/da_int8.h> // Table for Sample
-#include <samples/dh_int8.h> // Table for Sample 
-#include <samples/ga_int8.h> // Table for Sample 
-#include <samples/k_int8.h> // Table for Sample 
-#include <samples/ra_int8.h> // Table for Sample 
-#include <samples/t_int8.h> // Table for Sample 
-#include <samples/ta_int8.h> // Table for Sample 
+#include <samples/Wavetables/da_int8.h> // Table for Sample
+#include <samples/Wavetables/dh_int8.h> // Table for Sample 
+#include <samples/Wavetables/ga_int8.h> // Table for Sample 
+#include <samples/Wavetables/k_int8.h> // Table for Sample 
+#include <samples/Wavetables/ra_int8.h> // Table for Sample 
+#include <samples/Wavetables/t_int8.h> // Table for Sample 
+#include <samples/Wavetables/ta_int8.h> // Table for Sample 
 
 
 
