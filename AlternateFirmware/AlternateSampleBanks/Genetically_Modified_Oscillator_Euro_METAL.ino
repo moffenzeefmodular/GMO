@@ -79,14 +79,14 @@ _____/\\\\\\\\\\\\__/\\\\____________/\\\\_______/\\\\\______
 #include <ADC.h>  // Needed for DAC output 
 #include <MozziGuts.h> // Necessary for running the sketch 
 #include <Sample.h> // Library to play sound samples 
-#include <samples/metalone_int8.h> // Table for Sample
-#include <samples/metaltwo_int8.h> // Table for Sample 
-#include <samples/metalthree_int8.h> // Table for Sample 
-#include <samples/metalfour_int8.h> // Table for Sample 
-#include <samples/metalfive_int8.h> // Table for Sample 
-#include <samples/metalsix_int8.h> // Table for Sample 
-#include <samples/metalseven_int8.h> // Table for Sample 
-#include <samples/metaleight_int8.h> // Table for Sample 
+#include <samples/Wavetables/metalone_int8.h> // Table for Sample
+#include <samples/Wavetables/metaltwo_int8.h> // Table for Sample 
+#include <samples/Wavetables/metalthree_int8.h> // Table for Sample 
+#include <samples/Wavetables/metalfour_int8.h> // Table for Sample 
+#include <samples/Wavetables/metalfive_int8.h> // Table for Sample 
+#include <samples/Wavetables/metalsix_int8.h> // Table for Sample 
+#include <samples/Wavetables/metalseven_int8.h> // Table for Sample 
+#include <samples/Wavetables/metaleight_int8.h> // Table for Sample 
 
 
 
