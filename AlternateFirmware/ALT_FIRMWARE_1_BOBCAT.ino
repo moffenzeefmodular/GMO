@@ -1,3 +1,55 @@
+/*
+__/\\\\\\\\\\\\\_________/\\\\\_______/\\\\\\\\\\\\\__________/\\\\\\\\\_____/\\\\\\\\\_____/\\\\\\\\\\\\\\\_        
+ _\/\\\/////////\\\_____/\\\///\\\____\/\\\/////////\\\_____/\\\////////____/\\\\\\\\\\\\\__\///////\\\/////__       
+  _\/\\\_______\/\\\___/\\\/__\///\\\__\/\\\_______\/\\\___/\\\/____________/\\\/////////\\\_______\/\\\_______      
+   _\/\\\\\\\\\\\\\\___/\\\______\//\\\_\/\\\\\\\\\\\\\\___/\\\_____________\/\\\_______\/\\\_______\/\\\_______     
+    _\/\\\/////////\\\_\/\\\_______\/\\\_\/\\\/////////\\\_\/\\\_____________\/\\\\\\\\\\\\\\\_______\/\\\_______    
+     _\/\\\_______\/\\\_\//\\\______/\\\__\/\\\_______\/\\\_\//\\\____________\/\\\/////////\\\_______\/\\\_______   
+      _\/\\\_______\/\\\__\///\\\__/\\\____\/\\\_______\/\\\__\///\\\__________\/\\\_______\/\\\_______\/\\\_______  
+       _\/\\\\\\\\\\\\\/_____\///\\\\\/_____\/\\\\\\\\\\\\\/_____\////\\\\\\\\\_\/\\\_______\/\\\_______\/\\\_______ 
+        _\/////////////_________\/////_______\/////////////__________\/////////__\///________\///________\///________
+            
+        Moffenzeef Modular  
+  Genetically Modified Oscillator 
+   Created by Ross Fish July 2015
+           CC-BY-NC-SA 
+    http://moffenzeefmodular.com   
+  
+  Mozzi Synthesis Library by Tim Barrass CC-BY-NC-SA
+  
+    Information & Help:  
+    http://github.com/moffenzeefmodular/GMO/wiki
+    
+/////////////////////////////////////////////////////////////////
+            PINOUT 
+/////////////////////////////////////////////////////////////////
+
+  /////DIGITAL INS//////
+  BANG! 1 ==> Pin 3
+  BANG! 2 ==> Pin 2
+  Snarl switch ==> Pin 4 
+  
+  /////DIGITAL OUTS//////
+  LED Teensy Power Indicator ==> Pin 13
+  
+  /////ANALOG INS - POTS//////
+  Tail 1 ==> Pin 21 (A7)
+  Hiss 1 ==> Pin 15 (A1)
+  Tail 2 ==> Pin 17 (A3)
+  Hiss 2  ==> Pin 19 (A5)
+  
+  /////ANALOG INS - JACKS//////
+  Tail 1 CV ==> Pin 22 (A8)
+  Hiss 1 CV ==> Pin 16 (A2)
+  Tail 2 CV ==> Pin 18 (A4)
+  Hiss 2 CV ==> Pin 20 (A6)
+  
+  /////ANALOG OUTS//////
+  Audio Ouput == > DAC/A14 
+  LED Audio Indicator ==> Pin 23 (A9)
+  
+*/
+
 #include <ADC.h>  // Teensy 3.1 uncomment this line and install http://github.com/pedvide/ADC
 #include <MozziGuts.h>
 #include <Oscil.h> // oscillator template
@@ -15,8 +67,11 @@ Oscil<WHITENOISE8192_NUM_CELLS, AUDIO_RATE> bNoise(WHITENOISE8192_DATA);
 Ead envelopeOne(CONTROL_RATE); // resolution will be CONTROL_RATE
 Ead envelopeTwo(CONTROL_RATE); // resolution will be CONTROL_RATE
 
-int trigOne = 0; 
-int trigTwo = 0;
+int trigOneState = 0; 
+int trigTwoState = 0;
+
+int lastTrigOneState = 0;
+int lastTrigTwoState = 0;
 
 int toggle = 0; 
 
@@ -53,10 +108,9 @@ float mapfloat(float x, float in_min, float in_max, float out_min, float out_max
 }
 
 void setup(){
-  // use float to set freq because it will be small and fractional
   randSeed(); // fresh random, MUST be called before startMozzi - wierd bug
-  pinMode(0, INPUT);
   pinMode(2, INPUT);
+  pinMode(3, INPUT);
   pinMode(4, INPUT);
   startMozzi(CONTROL_RATE);
 }
@@ -67,8 +121,8 @@ void updateControl(){
   aNoise.setPhase(rand((unsigned int)WHITENOISE8192_NUM_CELLS));
   bNoise.setPhase(rand((unsigned int)WHITENOISE8192_NUM_CELLS));
     
-  trigOne = digitalRead(0);
-  trigTwo  = digitalRead(2);
+  trigOneState = digitalRead(3);
+  trigTwoState  = digitalRead(2);
   
   toggle = digitalRead(4);
   
@@ -101,9 +155,12 @@ void updateControl(){
   
   decayOne = map(decayOneMath, 1, 1023, 0, 255);
   
-  if (trigOne == HIGH){
+  if (trigOneState != lastTrigOneState && trigOneState == HIGH) { 
     envelopeOne.start(10, decayOne);
   }
+  
+  lastTrigOneState = trigOneState;  // set the last trigger state to the current trigger state because we are done with the reading 
+
   
   pitchPotOne = analogRead(A1);
   pitchOneCvRaw = analogRead(A2) - 512;
@@ -142,9 +199,11 @@ void updateControl(){
   
   decayTwo = map(decayTwoMath, 1, 1023, 0, 255);
   
-  if (trigTwo == HIGH){
+  if (trigTwoState != lastTrigTwoState && trigTwoState == HIGH) { 
     envelopeTwo.start(10, decayTwo);
   }
+  
+  lastTrigTwoState = trigTwoState;  // set the last trigger state to the current trigger state because we are done with the reading 
   
   pitchPotTwo = analogRead(A5);
   pitchTwoCvRaw = analogRead(A6) - 512;
@@ -164,12 +223,13 @@ void updateControl(){
   pitchTwo = mapfloat(pitchTwoMath, 1, 1023, 0.01, 3.0);
  
   bNoise.setFreq(pitchTwo); 
+  
   //////////////////////////////////////////
   
   gainOne = (int) envelopeOne.next();
   gainTwo = (int) envelopeTwo.next();
  
- analogWrite(A9, (int)(gainOne * aNoise.next()) + (gainTwo * bNoise.next()) * 5); // mirror the audio output boost the gain x 100  and write it to the LED  
+ analogWrite(A9, (int)(gainOne * aNoise.next()) + (gainTwo * bNoise.next()) * 5); 
 }
 
 
