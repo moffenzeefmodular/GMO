@@ -14,7 +14,8 @@ Oscil<SMOOTHSQUARE8192_NUM_CELLS, AUDIO_RATE> oscTwo(SMOOTHSQUARE8192_DATA);
 
 Ead envelopeOne(CONTROL_RATE); // resolution will be CONTROL_RATE
 
-int trigOne = 0;
+int trigState = 0;
+int lastTrigState = 0;
 
 int toggle = 0;
 int toggleCv = 0;
@@ -67,7 +68,7 @@ void updateControl() {
 
   toggleCv = digitalRead(2);
 
-  trigOne = digitalRead(3);
+  trigState = digitalRead(3);
 
   toggle   = digitalRead(4);
 
@@ -100,7 +101,7 @@ void updateControl() {
 
   decayOne = map(decayOneMath, 1, 1023, 0, 255);
 
-  if (trigOne == HIGH) {
+  if (trigState != lastTrigState && trigState == HIGH) { 
     envelopeOne.start(10, decayOne);
   }
 
