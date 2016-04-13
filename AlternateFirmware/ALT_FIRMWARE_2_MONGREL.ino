@@ -56,8 +56,8 @@ float mapfloat(float x, float in_min, float in_max, float out_min, float out_max
 void setup() {
   // use float to set freq because it will be small and fractional
   randSeed(); // fresh random, MUST be called before startMozzi - wierd bug
-  pinMode(0, INPUT);
   pinMode(2, INPUT);
+  pinMode(3, INPUT);
   pinMode(4, INPUT);
   startMozzi(CONTROL_RATE);
 }
@@ -65,9 +65,9 @@ void setup() {
 
 void updateControl() {
 
-  trigOne = digitalRead(0);
-
   toggleCv = digitalRead(2);
+
+  trigOne = digitalRead(3);
 
   toggle   = digitalRead(4);
 
