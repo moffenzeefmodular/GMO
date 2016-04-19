@@ -1,4 +1,4 @@
-[CLICK HERE FØR HELP](https://github.com/moffenzeefmodular/GMO/wiki)
+                                              [CLICK HERE FØR HELP](https://github.com/moffenzeefmodular/GMO/wiki)
 
 ![](https://github.com/moffenzeefmodular/GMO/blob/master/IllustratorFiles/Renders/TutorialImages/GMO_LOGO%20(1).png)
 
