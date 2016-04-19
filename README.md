@@ -11,7 +11,7 @@ Created by Røss Fish July 2015 øf [Møffenzeef Mødular](http://moffenzeefmodu
 
 [Alternate Firmware](https://github.com/moffenzeefmodular/GMO/wiki)
 
-[Schematic](https://github.com/moffenzeefmodular/GMO/blob/master/GMO_Schematic_v0.2.bmp)
+[Schematic](https://github.com/moffenzeefmodular/GMO/blob/master/GMO-Schematic.bmp)
 
 Report issues [here](https://github.com/issues)
 
