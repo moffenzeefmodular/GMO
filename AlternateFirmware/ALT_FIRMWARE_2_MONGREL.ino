@@ -123,7 +123,7 @@ void setup() {
 void updateControl() {
 
  ///////////////////////////////////////////
-                  GLOBAL
+ //               GLOBAL                  //
  ///////////////////////////////////////////
  
   toggleCv = digitalRead(2); // Read toggle CV on pin 2 
@@ -179,7 +179,7 @@ void updateControl() {
   }
   
  ///////////////////////////////////////////
-              OSCILLATOR ONE 
+ //           OSCILLATOR ONE              //
  ///////////////////////////////////////////
 
   pitchPotOne = analogRead(A1); // Read pitch potentiometer on Pin (A1) value is 0-1023 
@@ -209,9 +209,9 @@ void updateControl() {
 
   oscOne.setFreq(pitchOne); // Set pitch frequency 
 
-  ///////////////////////////////////////////
-              OSCILLATOR TWO 
- ///////////////////////////////////////////
+   //////////////////////////////////////////
+  //            OSCILLATOR TWO            //
+ //////////////////////////////////////////
 
   pitchPotTwo = analogRead(A5); // Read pitch potentiometer on Pin (A5) value is 0-1023
   pitchTwoCvRaw = analogRead(A6) - 512; // Read pitch CV on Pin (A6) value is 0-1023 
