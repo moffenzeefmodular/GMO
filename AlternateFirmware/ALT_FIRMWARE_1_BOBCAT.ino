@@ -124,7 +124,7 @@ void setup(){
 void updateControl(){
  
  ///////////////////////////////////////////
-                  GLOBAL
+ //                 GLOBAL                //
  ///////////////////////////////////////////
   
   // jump around in audio noise table to disrupt obvious looping in sound file. 
@@ -149,7 +149,7 @@ void updateControl(){
   }
   
   ///////////////////////////////////////////
-                 DRUM ONE
+  //               DRUM ONE                //
   ///////////////////////////////////////////
 
   decayPotOne = analogRead(A7); // Read decay potentiometer for drum one on Pin (A7) value is 0-1023 
@@ -216,7 +216,7 @@ void updateControl(){
   aNoise.setFreq(pitchOne);  // Set the frequency of first drum 
   
   ///////////////////////////////////////////
-                 DRUM TWO 
+  //               DRUM TWO                //
   ///////////////////////////////////////////
 
   decayPotTwo   = analogRead(A3); // Read decay potentiometer for drum two on Pin (A3) value is 0-1023
