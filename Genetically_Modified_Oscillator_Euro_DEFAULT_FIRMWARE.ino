@@ -290,6 +290,9 @@ enable looping of the audio file. If neither one of them is on, turn looping off
   sampleMath = (pot7Raw + sampleCvRaw); // So we subtract it from the Pot 
   }
   
+  sampleMath = max(sampleMath, 1); // limit the lowest possible value to 1, data below this limit gets truncated 
+  sampleMath = min(sampleMath, 1023); // limit the highest possible value to 1023, data above this limit gets truncated
+  
   /* 
   map from 1 to 9 (the number of sound files loaded + 1 to account for 0). If adding more files into the sketch, 
   change the last number of this map function to the total number of files + 1.
