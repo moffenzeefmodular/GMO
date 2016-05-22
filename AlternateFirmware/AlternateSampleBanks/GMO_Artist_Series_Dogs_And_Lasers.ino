@@ -17,6 +17,7 @@ _____/\\\\\\\\\\\\__/\\\\____________/\\\\_______/\\\\\______
     http://moffenzeefmodular.com   
   
   Mozzi Synthesis Library by Tim Barrass CC-BY-NC-SA
+   Inspired by/pieces of code from a variety of sketches included in the Mozzi library in the "Samples" example folder
 
 /////////////////////////////////////////////////////////////////
           DEPENDENCIES 
