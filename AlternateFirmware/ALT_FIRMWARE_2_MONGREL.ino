@@ -207,7 +207,7 @@ void updateControl() {
   pitchOneMath = max(pitchOneMath, 1);   // limit the lowest possible value to 1, data below this limit gets truncated
   pitchOneMath = min(pitchOneMath, 1023); // limit the highest possible value to 1023, data above this limit gets truncated
 
-  pitchOne = mapfloat(pitchOneMath, 1, 1023, 20.0, 2000.0); // Map from 20hz to 2khz 
+  pitchOne = mapfloat(pitchOneMath, 1, 1023, 20.0, 300.0); // Map from 20hz to 300hz 
 
   oscOne.setFreq(pitchOne); // Set pitch frequency 
 
@@ -238,7 +238,7 @@ void updateControl() {
   pitchTwoMath = max(pitchTwoMath, 1);   // limit the lowest possible value to 1, data below this limit gets truncated
   pitchTwoMath = min(pitchTwoMath, 1023); // limit the highest possible value to 1023, data above this limit gets truncated
 
-  pitchTwo = mapfloat(pitchTwoMath, 1, 1023, 20.0, 2000.0); // Map from 20hz to 2khz 
+  pitchTwo = mapfloat(pitchTwoMath, 1, 1023, 20.0, 300.0); // Map from 20hz to 300hz 
 
   oscTwo.setFreq(pitchTwo); // Set pitch frequency 
   
