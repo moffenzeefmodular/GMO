@@ -114,10 +114,12 @@ float mapfloat(float x, float in_min, float in_max, float out_min, float out_max
 void setup() {
   // use float to set freq because it will be small and fractional
   randSeed(); // fresh random, MUST be called before startMozzi - wierd bug
-  pinMode(2, INPUT); // Initialize pin 2 as digital input
-  pinMode(3, INPUT); // Initialize pin 3 as digital input
-  pinMode(4, INPUT); // Initalize pin 4 as digital input 
-  startMozzi(CONTROL_RATE); // Initialize Mozzi 
+  pinMode(2, INPUT);
+  pinMode(3, INPUT);
+  pinMode(4, INPUT);
+  pinMode(13, OUTPUT);
+  startMozzi(CONTROL_RATE);
+  digitalWrite(13, HIGH);
 }
 
 void updateControl() {
