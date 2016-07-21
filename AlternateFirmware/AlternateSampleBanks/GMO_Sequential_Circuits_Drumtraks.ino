@@ -90,7 +90,7 @@ _____/\\\\\\\\\\\\__/\\\\____________/\\\\_______/\\\\\______
 #include <samples/wavetables/dtNine_int8.h> // Table for Sample 
 #include <samples/wavetables/dtTen_int8.h> // Table for Sample 
 #include <samples/wavetables/dtEleven_int8.h> // Table for Sample 
-
+#include <samples/wavetables/dtTwelve_int8.h> // Table for Sample 
 
 #define CONTROL_RATE 256 // powers of 2 please 
 
@@ -360,7 +360,12 @@ enable looping of the audio file. If neither one of them is on, turn looping off
     case 11:
       aSample.setTable(DTELEVEN_DATA); // change the current wavetable
       CURRENT_TABLE = DTELEVEN_NUM_CELLS; // set the wavetable length to current wavetable
-      break;     
+      break;    
+      
+    case 12:
+      aSample.setTable(DTTWELVE_DATA); // change the current wavetable
+      CURRENT_TABLE = DTTWELVE_NUM_CELLS; // set the wavetable length to current wavetable
+      break;  
       
   }
   
