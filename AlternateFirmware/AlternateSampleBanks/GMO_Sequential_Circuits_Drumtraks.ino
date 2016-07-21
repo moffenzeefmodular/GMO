@@ -211,7 +211,7 @@ enable looping of the audio file. If neither one of them is on, turn looping off
   pitchMath = max(pitchMath, 1);   // limit the lowest possible value to 1, data below this limit gets truncated 
   pitchMath = min(pitchMath, 1023); // limit the highest possible value to 1023, data above this limit gets truncated 
   
-  pitch = mapfloat(pitchMath, 1, 1023, 3.0, 7.0); // map from 0.01% to triple speed
+  pitch = mapfloat(pitchMath, 1, 1023, 2.0, 10.0); // map from 0.01% to triple speed
   
 
   pot3Raw = mozziAnalogRead(3); // read pot 3 on Pin (A3) value is 1-1023
